@@ -1,0 +1,17 @@
+[   
+    {
+        "name": "Mavic Air 2",
+        "propellers": 2,
+        "maxSpeed": 18
+    },
+    {
+        "name": "DJI 50",
+        "propellers": 6,
+        "maxSpeed": 30
+   },
+   {
+        "name": "Air Samsung Galaxy",
+        "propellers": 4,
+        "maxSpeed": 16
+   }
+]
