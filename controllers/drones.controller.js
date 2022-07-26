@@ -12,7 +12,7 @@ module.exports.list = (req, res, next) => {
 }
 
 module.exports.create = (req, res, next) => {
-    res.render('create')
+    res.render('form')
 }
 
 module.exports.doCreate = (req, res, next) => {
@@ -27,4 +27,6 @@ module.exports.doCreate = (req, res, next) => {
             next(err);
         })
 }
+
+
 
