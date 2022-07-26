@@ -1,0 +1,9 @@
+<h1>🚁 List the drones 🚁</h1>
+
+{{#each drones as |drone|}}
+    <div>
+        <h2>{{drone.name}}</h2>
+        <h4>Propellers: {{drone.propellers}}</h4>
+        <h4>Max speed: {{drone.maxSpeed}}</h4>
+    </div>
+{{/each}}
